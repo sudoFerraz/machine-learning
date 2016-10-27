@@ -12,6 +12,6 @@ clf = tree.DecisionTreeClassifier()
 
 clf = clf.fit(x,y)
 
-prediction = clf.predict([[190, 70, 43]])
+prediction = clf.predict([[183, 96, 42]])
 
 print prediction
